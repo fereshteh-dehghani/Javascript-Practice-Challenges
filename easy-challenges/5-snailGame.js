@@ -1,4 +1,6 @@
-// Steve and Maurice have racing snails. They each have three, a slow s, medium m and fast f one. Although Steve's snails are all a bit stronger than Maurice's, Maurice has a trick up his sleeve. His plan is
+// Steve and Maurice have racing snails. They each have three, a slow s,
+// medium m and fast f one. Although Steve's snails are all a bit stronger than Maurice's,
+//  Maurice has a trick up his sleeve. His plan is
 
 // Round 1: [s, f] Sacrifice his slowest snail against Steve's fastest.
 // Round 2: [m, s] Use his middle snail against Steve's slowest.
@@ -23,3 +25,34 @@
 // The order you'll get the snails is always in ascending order.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function mauriceWins(mauriceSnails,stiveSnails){
+//      let isMauriceWinner = false;
+//      isMauriceWinner = (mauriceSnails[0]>stiveSnails[2] && mauriceSnails[1]>stiveSnails[0] &&  mauriceSnails[2]>stiveSnails[1]) ||
+//      (mauriceSnails[0]<stiveSnails[2] && mauriceSnails[1]>stiveSnails[0] &&  mauriceSnails[2]>stiveSnails[1]);
+
+//      return isMauriceWinner;
+// }
+//  console.log(mauriceWins([6, 8, 9], [7, 12, 14]));

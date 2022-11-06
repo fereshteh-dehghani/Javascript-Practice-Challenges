@@ -1,4 +1,5 @@
-// Write a function that moves all the zeroes to the end of an array. Do this without returning a copy of the input array.
+// Write a function that moves all the zeroes to the end of an array. 
+// Do this without returning a copy of the input array.
 
 // Examples
 // zeroesToEnd([1, 2, 0, 0, 4, 0, 5]) ➞ [1, 2, 4, 5, 0, 0, 0]
@@ -12,5 +13,31 @@
 // You must mutate the original array.
 // Keep the relative order of the non-zero elements the same.
 
+
+
+
+
+
+
+
+
+
+
+// function zeroesToEnd(numbers){
+
+// let isAllZero= numbers.every(item => item===0);
+// if(!isAllZero){
+//     for(let i=0;i<numbers.length ; i++){
+//         if(numbers[i]=== 0){
+//             numbers.splice(i,1);
+//             numbers.push(0);
+//         }
+//     }
+// }
+//  return numbers;  
+// }
+
+// console.log(zeroesToEnd([0,1,4,7,0,5]));
+// console.log(zeroesToEnd([0,0,0]));
 
 

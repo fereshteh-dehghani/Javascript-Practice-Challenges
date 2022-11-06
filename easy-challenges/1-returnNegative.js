@@ -8,3 +8,28 @@
 // returnNegative(-4) ➞ -4
 
 // returnNegative(0) ➞ 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function returnnegative (num) {
+//     if(num>0){
+//     num *= -1;
+//     }
+//     return num;
+// }
+
+// console.log(returnnegative(9));
+// console.log(returnnegative(-8));
