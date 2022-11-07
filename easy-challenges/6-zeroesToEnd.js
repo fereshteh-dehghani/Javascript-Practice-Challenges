@@ -23,21 +23,15 @@
 
 
 
-// function zeroesToEnd(numbers){
+function zeroesToEnd(numbers) {
+    const nonZeroNumbers = numbers.filter((num) => num !== 0);
+    const zeroNumbers = numbers.filter((num) => num === 0);
+    const newNumbers= [...nonZeroNumbers];
+    return newNumbers.concat(zeroNumbers);
+    
+}
 
-// let isAllZero= numbers.every(item => item===0);
-// if(!isAllZero){
-//     for(let i=0;i<numbers.length ; i++){
-//         if(numbers[i]=== 0){
-//             numbers.splice(i,1);
-//             numbers.push(0);
-//         }
-//     }
-// }
-//  return numbers;  
-// }
-
-// console.log(zeroesToEnd([0,1,4,7,0,5]));
-// console.log(zeroesToEnd([0,0,0]));
+console.log(zeroesToEnd([1, 0, 0,6, 0, 0,0, 5]));
+console.log(zeroesToEnd([0, 0, 0]));
 
 
