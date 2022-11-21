@@ -1,6 +1,11 @@
-// Primiera (from the french word prime, "prize") is a combination of cards of Scopa, a popular Italian card game.
+// Primiera (from the french word prime, "prize") is a combination of cards
+//  of Scopa, a popular Italian card game.
 
-// For establishing the value of the Primiera, a separate point scale is used for selecting the best cards in the player's deck, in each of the four suits and totaling those four cards point values. A Primiera requires at least one card for each suit, otherwise, it can't be calculated.
+// For establishing the value of the Primiera, a separate point scale is
+//  used for selecting the best cards in the player's deck, in each of the
+//  four suits and totaling those four cards point values. A Primiera 
+// requires at least one card for each suit, otherwise, it can't be 
+// calculated.
 
 // This is the Primiera points scale:
 
